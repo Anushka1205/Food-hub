@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+
+    <div id="popUp" class="ingredient">
+        <div class="box">
+            <h1>Ingredients</h1>
+            <ul id="list" >
+            </ul>
+        </div>
+    </div>
+
+    <div id="head">
+        <div id="logo">
+            <img src="./assets/logo.jpg" alt="logo">
+        </div>
+
+        <div id="info">
+            <div id="home">
+                <h1>HOME</h1>
+            </div>
+            
+            <div id="search">
+                <h1>Search</h1>
+                <img id="icon" src="./assets/search logo.jpg" alt="logo">
+            </div>
+        </div>
+    </div>
+
+    <div id="main">
+        <h1 class="container1" id="heading1">Welcome to the Food Hub</h1>
+        <h1 class="container1" id="heading2">What do you like to eat?</h1>
+    </div>
+
+    <div class="linemaker">
+        <hr>
+    </div>
+
+    <div id="bar">
+        <div id="searchbar">
+            <input id="search-bar" type="text" placeholder="Search your meal..." >
+            <img src="./assets/search logo.jpg" alt="logo" onclick="searchdish()">
+        </div>
+    </div>
+    
+    <div class="linemaker">
+        <hr>
+    </div>
+
+    <div id="dish">
+        <div id="random">Recommendation</div>
+        <img id="randomedish" src="" onclick="showpopUp()" alt="dish">
+        <div id="name">
+            <div id="dishname"></div>
+        </div>
+        <div id="NewDish">
+            <p id="new-dish" onclick="newDish()">NewDish</p>
+        </div>
+    </div>
+
+    
+
+    <div class="linemaker">
+        <hr>
+    </div>
+
+    <div id="hide">
+        <div id="store">
+            <p>You Searched: </p>
+        </div>
+
+        <div id="items">
+            <div>
+                <img id="img1" src="" alt="pic">
+                <p id="title1">Spanich Koftas</p>
+            </div>
+            <div>
+                <img id="img2" src="" alt="pic">
+                <p id="title2">Spanich Pakoras</p>
+            </div>
+            <div>
+                <img id="img3" src="" alt="pic">
+                <p id="title3">Spanich Salad</p>
+            </div>
+            <div>
+                <img id="img4" src=""alt="pic">
+                <p id="title4">Spanich Soup</p>
+            </div>
+        </div> 
+
+    </div>
+
+    <div class="linemaker">
+        <hr>
+    </div>
+
+    <footer>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+</html>
